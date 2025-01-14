@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    
+    {
+      "type": "java",
+      "name": "Launch SquidGameGUI",
+      "request": "launch",
+      "mainClass": "SquidGameGUI",
+      "vmArgs": "--module-path \"C:/path/to/javafx-sdk/lib\" --add-modules javafx.controls,javafx.fxml",
+      "classPaths": [
+        "bin"
+      ]
+    }
+  ]
+}
+

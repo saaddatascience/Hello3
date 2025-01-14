@@ -1,0 +1,43 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Run JavaFX",
+        "type": "shell",
+        "command": "java",
+        "args": [
+          "--module-path",
+          "C:/Users/DELL2023SIDDIQUI TAJ/Downloads/openjfx-21.0.5_windows-x64_bin-sdk/javafx-sdk-21.0.5/lib",
+          "--add-modules",
+          "javafx.controls,javafx.fxml",
+          "-cp",
+          ".",
+          "SquidGameGUI"
+        ],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": []
+      },
+      {
+        "label": "Compile JavaFX",
+        "type": "shell",
+        "command": "javac",
+        "args": [
+          "--module-path",
+          "C:/Users/DELL2023SIDDIQUI TAJ/Downloads/openjfx-21.0.5_windows-x64_bin-sdk/javafx-sdk-21.0.5/lib",
+          "--add-modules",
+          "javafx.controls,javafx.fxml",
+          "SquidGameGUI.java"
+        ],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": []
+      }
+    ]
+  }
+  
+  
